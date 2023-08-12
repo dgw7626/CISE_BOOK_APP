@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
+const db = "mongodb+srv://vercel-admin-user:Radeon233@cluster0.2rfglyp.mongodb.net/?retryWrites=true&w=majority";
 const config = require('config');
-const db = "mongodb+srv://dgw7626:Radeon233@mern.g6tpvla.mongodb.net/?retryWrites=true&w=majority";
 
 const connectDB = async () => {
   try {
