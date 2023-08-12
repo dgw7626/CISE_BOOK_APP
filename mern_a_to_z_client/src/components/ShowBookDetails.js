@@ -11,7 +11,7 @@ function ShowBookDetails(props) {
 
   useEffect(() => {
     axios
-      .get(`https://cise-book-app-six.vercel.app/api/books/${id}`)
+      .get(`https://cise-book-app-api-alpha.vercel.app/api/books/${id}`)
       .then((res) => {
         setBook(res.data);
       })
@@ -22,7 +22,7 @@ function ShowBookDetails(props) {
 
   const onDeleteClick = (id) => {
     axios
-      .delete(`https://cise-book-app-six.vercel.app/api/books/${id}`)
+      .delete(`https://cise-book-app-api-alpha.vercel.app/api/books/${id}`)
       .then((res) => {
         navigate('/');
       })
