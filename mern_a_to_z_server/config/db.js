@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const config = require('config');
-const db = config.get('mongoURI');
+const db = "mongodb+srv://dgw7626:Radeon233@mern.g6tpvla.mongodb.net/?retryWrites=true&w=majority";
 
 const connectDB = async () => {
   try {
