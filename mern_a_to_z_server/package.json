@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "app": "nodemon app.js",
-    "start": "node app.js"
+    "start": "set NODE_ENV=development&& node app.js",
+    "start-prod": "set Node_ENV=production&& nodemon app.js"
   },
   "author": "Sky Rheem",
   "license": "MIT",
